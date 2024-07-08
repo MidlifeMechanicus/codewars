@@ -1,4 +1,4 @@
-# Correct the mistakes of the character regognition software
+# Correct the mistakes of the character recognition software
 
 ### DESCRIPTION:
 
