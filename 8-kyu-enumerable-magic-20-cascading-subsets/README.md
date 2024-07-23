@@ -1,4 +1,4 @@
-# Enemerable Magice #20 - Cascading Subsets
+# Enumerable Magic #20 - Cascading Subsets
 
 ### DESCRIPTION
 
