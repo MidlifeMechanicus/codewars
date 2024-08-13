@@ -4,7 +4,13 @@
 # Credit to https://math.stackexchange.com/questions/4135825/height-of-square-pyramid-created-of-spheres
 
 def stack_height_3d(layers)
-  (2+(layers-1)*1.41421356237)/2
-end  
+  return 0 if layers == 0
 
-This kata is a bit messed up. The formula passes the tests, but it does not register as completed. I'll have to come back and try plugging this back in another time.
+  (2 + (layers - 1) * 1.41421356237) / 2
+end
+
+# Refactored to:
+
+def stack_height_3d(layers)
+  layers.zero? ? 0 : (2 + (layers - 1) * 1.41421356237) / 2
+end
