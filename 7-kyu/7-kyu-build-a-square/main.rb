@@ -13,3 +13,9 @@ def generate_shape(n)
   string = "+" * n
   string + ("\n" + string) * (n - 1)
 end
+
+# An interesting alternate approach:
+
+def generate_shape(n)
+  Array.new(n,"+"*n).join("\n")
+end
